@@ -1,0 +1,81 @@
+.caixa{
+    background: #A7CDD6;
+    height: 100px;
+}
+
+.logo{
+    height: 80px;
+    display: inline-block;
+    margin: 10px 130px;
+}
+
+nav{
+    position: absolute;
+    top: 42px;
+    right: 500px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+  
+.paginas{
+    border-right: 1px solid black;
+    height: 50px;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+
+.paginas:hover, #contato:hover{
+    color: yellow;
+}
+
+#contato{
+    margin-left: 10px;
+    margin-right: 75px;
+}
+
+#app{
+    border: 1px solid #00000099;
+    background: #00000099;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.ifood{
+    height: 12px;
+    margin-left: 4px;
+}
+
+#app:hover{
+    padding: 10px;
+}
+
+.redes.sociais{
+    display: inline;
+
+}
+
+.instagram, .facebook{
+    height: 25px;
+    position: absolute;
+    top: 37px;
+    right: 380px;
+}
+
+.facebook{
+    right: 335px;
+}
+
+.facebook:hover, .instagram:hover{
+    height: 30px;
+}
